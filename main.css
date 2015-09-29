@@ -1,0 +1,87 @@
+* {
+	
+	box-sizing: border-box;	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 { 
+	color:white;
+	font-family:verdana;
+	font-size:480%;
+	position: absolute; 
+	top: 55px; 
+	left: 37%; 
+}
+		
+.button {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 200px;
+
+	margin: 0;
+	padding: 0;
+
+	color: black;
+	font-size: 28;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	line-height: 200px;
+}
+
+.button:hover {
+	text-decoration: underline;
+}
+
+.hero {
+	width: 100%;
+	height: 410px;
+	background-image: url('images/background.jpg');
+}
+
+.heroPlan {
+	width: 100%;
+	height: 100px;
+	background-image: url('images/PlanHeader.jpg');
+}
+
+.nav {
+	background-color: #181818;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.nav-title {
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.nav-item {
+	color: white;
+	display: inline-block;
+	margin: 0;
+	padding: 0 20px;
+}
+
+.nav-item:hover {
+	text-decoration: underline;
+	background-color: white;
+	color: black;
+}
+
+
